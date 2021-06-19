@@ -99,10 +99,13 @@ body::-webkit-scrollbar {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 53%,
+    rgba(255, 255, 255, 0.9640231092436975) 61%,
+    rgba(255, 255, 255, 0.9164040616246498) 77%,
+    rgba(255, 255, 255, 0.7035189075630253) 88%,
     rgba(255, 255, 255, 0) 100%
   );
   width: 100%;
+  margin-top: 20px;
   padding: 40px;
 }
 
@@ -116,14 +119,14 @@ body::-webkit-scrollbar {
 
 .progress-container {
   width: 100%;
-  height: 8px;
+  height: 20px;
   background: #ccc;
   z-index: 10;
 }
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
-  height: 8px;
+  height: 20px;
   background: #000000;
   width: 0%;
 }
@@ -152,7 +155,6 @@ body::-webkit-scrollbar {
   line-height: 95px;
   margin-top: 300px;
 }
-
 
 .margin-top-40 {
   margin-top: 40px;
