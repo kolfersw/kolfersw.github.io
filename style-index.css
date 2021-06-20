@@ -105,7 +105,6 @@ body::-webkit-scrollbar {
     rgba(255, 255, 255, 0) 100%
   );
   width: 100%;
-  margin-top: 20px;
   padding: 40px;
 }
 
